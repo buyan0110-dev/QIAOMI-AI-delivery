@@ -1,0 +1,43 @@
+{
+  "version": "0.3.2",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "qt_platform": "offscreen",
+  "tray_simulated": true,
+  "provider": "offline",
+  "models_loaded": false,
+  "gpu": "not measured",
+  "metrics": [
+    {
+      "mode": "pet_idle",
+      "elapsed_seconds": 7.963,
+      "cpu_seconds": 0.1556,
+      "cpu_percent_of_one_core": 1.954,
+      "rss_mib": 92.69,
+      "pet_timer_active": true,
+      "microphone_active": false,
+      "voice_worker_pid": 0
+    },
+    {
+      "mode": "game_mode",
+      "elapsed_seconds": 8.051,
+      "cpu_seconds": 0.0377,
+      "cpu_percent_of_one_core": 0.468,
+      "rss_mib": 86.36,
+      "pet_timer_active": false,
+      "microphone_active": false,
+      "voice_worker_pid": 0
+    },
+    {
+      "mode": "hidden_idle",
+      "elapsed_seconds": 7.94,
+      "cpu_seconds": 0.0059,
+      "cpu_percent_of_one_core": 0.074,
+      "rss_mib": 86.36,
+      "pet_timer_active": false,
+      "microphone_active": false,
+      "voice_worker_pid": 0
+    }
+  ],
+  "limitations": "Single process idle only; no ASR/LLM/game workload; offscreen software painting is not Windows desktop performance."
+}

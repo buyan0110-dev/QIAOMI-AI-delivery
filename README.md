@@ -1,14 +1,21 @@
-# QIAOMI AI v0.2.0 文件交付
+# QIAOMI AI v0.3.0 文件交付
 
-本仓库用于交付已生成的 QIAOMI AI v0.2.0 源码 ZIP。
+[下载 v0.3.0 完整源码 ZIP](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/raw/refs/heads/delivery/v0.3.0/QIAOMI-AI-v0.3.0-source.zip)
 
-[下载源码 ZIP](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/raw/refs/heads/delivery/v0.2.0/QIAOMI-AI-v0.2.0-source.zip)
+[安装与本地 AI 配置](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/INSTALL.md) · [语音模型与中文声音安装](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/VOICE.md) · [测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/TEST_REPORT.md)
 
-[查看交付分支](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.2.0)
+基于原 v0.2.0 整合升级，保留桌宠、Jarvis 管家界面、Ollama/Qwen3、长期记忆与原用户数据路径。新增 pythonw/VBS 无控制台启动、桌面快捷方式、自然语言记忆候选确认、本地语音输入/输出及实验转写唤醒。
 
-ZIP 基于 v0.1.1 升级，保留桌宠、管家、聊天记录和长期记忆；增加本机 Ollama / qwen3:8b 检测、中文多轮、流式输出与取消。
+Windows 首次执行 start.bat 准备依赖，之后使用 start.vbs；install_shortcut.vbs 创建桌面快捷方式。语音功能另执行 install_voice.bat，按说明安装本地模型和 Windows 中文声音。EXE 打包使用包内 build_windows.bat，Ollama/Qwen3/Whisper 模型不打进 EXE。
 
-Windows 11：先退出旧版并备份 `%LOCALAPPDATA%\QIAOMI AI`，解压源码 ZIP，确认 Ollama 中已安装 `qwen3:8b`，双击 `start.bat`。
-详细说明见压缩包内 `docs/UPGRADE_V0.2.0.md`。
+**169 项自动化测试与 Linux Qt 离屏启动自检通过。Windows 11 真机、中文音频质量、实际 Qwen3 提取和 RTX 4070 Ti 显存表现未验证；未生成 Windows EXE。**「敲咪」为默认关闭的实验本地转写匹配，不是专用唤醒词检测器，不承诺已验证的唤醒可靠性。
 
-146 项自动化测试及启动自检已通过；真实 Windows、RTX 4070 Ti、Qwen3 推理仍需本机验证。此包为源码，不包含 Windows EXE。
+下载后先备份 %LOCALAPPDATA%\\QIAOMI AI，完全退出旧版，再解压完整项目；不要覆盖或删除自己的 qiaomi.db。
+
+ZIP SHA-256：
+
+```text
+9e27d0353b5eccbcabc04a222b274e3e86beb581268db0e8e48acef5a046dcd5
+```
+
+[校验文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/QIAOMI-AI-v0.3.0-source.zip.sha256) · [保留的 v0.2.0 交付](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.2.0)

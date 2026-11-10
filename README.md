@@ -1,21 +1,33 @@
-# QIAOMI AI v0.3.0 文件交付
+# QIAOMI AI v0.3.1 — Windows 语音修复与诊断交付
 
-[下载 v0.3.0 完整源码 ZIP](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/raw/refs/heads/delivery/v0.3.0/QIAOMI-AI-v0.3.0-source.zip)
+[打开 v0.3.1 源码 ZIP 文件页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.1/QIAOMI-AI-v0.3.1-source.zip)
 
-[安装与本地 AI 配置](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/INSTALL.md) · [语音模型与中文声音安装](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/VOICE.md) · [测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/TEST_REPORT.md)
+建议在 Edge/Chrome 打开文件页，点击右上角 ↓ Download raw file 下载。避免在聊天内置浏览器直接打开 ZIP。
 
-基于原 v0.2.0 整合升级，保留桌宠、Jarvis 管家界面、Ollama/Qwen3、长期记忆与原用户数据路径。新增 pythonw/VBS 无控制台启动、桌面快捷方式、自然语言记忆候选确认、本地语音输入/输出及实验转写唤醒。
+[安装/升级说明](INSTALL.md) · [语音操作](VOICE.md) · [根因分析](ROOT_CAUSE.md) · [文件变更清单](FILES_CHANGED.md) · [测试报告](TEST_REPORT.md) · [Windows 手测步骤](WINDOWS_TEST_STEPS.md) · [更新日志](CHANGELOG.md)
 
-Windows 首次执行 start.bat 准备依赖，之后使用 start.vbs；install_shortcut.vbs 创建桌面快捷方式。语音功能另执行 install_voice.bat，按说明安装本地模型和 Windows 中文声音。EXE 打包使用包内 build_windows.bat，Ollama/Qwen3/Whisper 模型不打进 EXE。
+本版本基于 v0.3.0 增量修复，优先解决采集门控和诊断缺失：
 
-**169 项自动化测试与 Linux Qt 离屏启动自检通过。Windows 11 真机、中文音频质量、实际 Qwen3 提取和 RTX 4070 Ti 显存表现未验证；未生成 Windows EXE。**「敲咪」为默认关闭的实验本地转写匹配，不是专用唤醒词检测器，不承诺已验证的唤醒可靠性。
+- 默认手动录音：开始说话 → 实时音量/时长 → 结束并识别；不经过能量阈值或 Silero 门控。
+- 三秒麦克风自检不加载模型；诊断显示真实设备、ID/接口、采样率、声道、RMS/峰值/阈值、时长和帧数。
+- 原生格式采集，按整段能量选较强声道，再抗混叠重采样到 16 kHz float32；防止错误声道或反相平均抵消。
+- 设备身份核验、请求 ID、重复点击保护、取消/超时恢复、模型错误和空结果提示。
+- 单写入者轮转 voice.log，完整异常堆栈，不记录转写、录音或密钥。
 
-下载后先备份 %LOCALAPPDATA%\\QIAOMI AI，完全退出旧版，再解压完整项目；不要覆盖或删除自己的 qiaomi.db。
+旧版已确认有“未超过阈值就丢弃整段音频”的分支；这不证明 HyperX 现场的唯一根因。实际设备映射、信号幅度与中文识别质量仍需真机诊断。
+
+## 升级后先做这三步
+
+1. 完全退出旧版并备份用户数据目录；解压完整源码，执行 start.bat 与 install_voice.bat（新增 SciPy 依赖）。不要删除记忆数据库或个人配置。
+2. 刷新设备、重新选择 HyperX QuadCast S，先运行三秒自检；选择原有完整 small 模型，保持 CPU int8。
+3. 默认手动录音，讲话后点“结束并识别”。错误时查看诊断与“打开语音日志”。
+
+**224 项自动化测试、Linux Qt 离屏启动自检和 pip check 通过；Windows 11 + HyperX QuadCast S、真实 Whisper 中文质量与游戏并行性能未实测。未提供 Windows EXE。** 没有数据库结构变化；桌宠、聊天、长期记忆、主配置和 start.bat 保持原实现。实验唤醒仍默认关闭，未升级为专用 KWS。
 
 ZIP SHA-256：
 
 ```text
-9e27d0353b5eccbcabc04a222b274e3e86beb581268db0e8e48acef5a046dcd5
+c7612457eefd09b2005a8d63cd5faed540c2966dec232fe3a47a26a621bab543
 ```
 
-[校验文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.0/QIAOMI-AI-v0.3.0-source.zip.sha256) · [保留的 v0.2.0 交付](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.2.0)
+[校验文件](QIAOMI-AI-v0.3.1-source.zip.sha256) · [v0.3.0 原交付](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.3.0) · [v0.2.0 原交付](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.2.0)

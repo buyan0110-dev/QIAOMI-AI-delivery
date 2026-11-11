@@ -1,0 +1,21 @@
+{
+  "build": "v0.4.1-costume-tail.2",
+  "client_date": "2026-11-12",
+  "timezone": "Asia/Shanghai",
+  "refined_groups": 21,
+  "refined_frames": 98,
+  "original_border_warning_frames": 66,
+  "remaining_border_warning_frames": 0,
+  "original_border_threshold_alpha": 128,
+  "threshold_unchanged": true,
+  "refined_far_low_alpha_before": 374405,
+  "refined_far_low_alpha_after": 47368,
+  "far_low_alpha_reduction_percent": 87.35,
+  "all_asset_basic_errors": [],
+  "overall_heuristic_warning_frames_before": 252,
+  "overall_heuristic_warning_frames_after": 247,
+  "automated_tests_passed": 404,
+  "actual_qt_frame_pairs": 98,
+  "windows11_tested": false,
+  "overall_art_acceptance": "pending; not a zero-alpha/anatomy/continuity certification"
+}

@@ -1,3 +1,19 @@
+# QIAOMI AI v0.4.1 — 装饰尾巴与边界精修第2轮（候选）
+
+**[下载完整源码 ZIP（约83 MB）](QIAOMI-AI-v0.4.1-costume-tail.2-CANDIDATE-source.zip)**
+
+请用 Edge / Chrome 打开文件页，点击右上角 **Download raw file（下载箭头）**。这是完整源码，**不是 Windows EXE**。
+
+本轮精修21组98帧，原66张显著不透明边界警告清零；修改范围内低透明残留计数下降87.35%。修补摸头后三帧的六爪问题，仅保留两只举起前爪和两只后爪。**404项自动化测试通过。全套透明羽化/连续动作及Windows11实机验收仍待完成。**
+
+[实际摸头前后对比](touch-head-before-after.png) · [耳尖前后对比](ears-before-after.png) · [实际Qt动画前后预览](actions-before-after.mp4) · [透明摸头预览](touch-head-transparent.webp) · [详细报告与安装验收](REPORT.zh-CN.md) · [测试结果](TEST_RESULTS.txt) · [全部帧状态](frame-status.csv) · [修改文件](changed-files.txt) · [校验值](SHA256SUMS.txt)
+
+先从托盘完全退出旧实例，再在独立新目录测试，备份并保留原用户数据。不要只换图片而不更新绘制代码；已有EXE需重建。包内不含个人数据库、配置、模型、录音和虚拟环境。此前版本均保留在原交付分支。
+
+下面为原版本历史说明，以本页上方报告为当前状态。
+
+---
+
 # QIAOMI AI v0.4.1 — 桌宠生命系统2.0 / AI管家界面2.0
 
 [打开 v0.4.1 完整源码 ZIP 文件页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1/QIAOMI-AI-v0.4.1-source.zip)

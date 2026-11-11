@@ -1,0 +1,117 @@
+{
+  "version": "0.4.1",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "qt_platform": "offscreen",
+  "tray_simulated": true,
+  "models_loaded": false,
+  "gpu_percent": null,
+  "vram_mib": null,
+  "metrics": [
+    {
+      "mode": "pet_idle",
+      "seconds": 8.006,
+      "cpu_percent_one_core": 1.411,
+      "rss_mib": 99.16,
+      "threads": 4,
+      "timers": {
+        "next_action": true,
+        "phase_timer": false,
+        "neglect_timer": true,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "pet_timer": true,
+      "orb_timer": false,
+      "seek_timer": false,
+      "seek_running": false,
+      "decoded_frame_bytes": 1048576,
+      "microphone": false,
+      "voice_pid": 0
+    },
+    {
+      "mode": "autonomous_read",
+      "seconds": 7.993,
+      "cpu_percent_one_core": 2.552,
+      "rss_mib": 100.27,
+      "threads": 4,
+      "timers": {
+        "next_action": false,
+        "phase_timer": true,
+        "neglect_timer": true,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "pet_timer": true,
+      "orb_timer": false,
+      "seek_timer": false,
+      "seek_running": false,
+      "decoded_frame_bytes": 1310720,
+      "microphone": false,
+      "voice_pid": 0
+    },
+    {
+      "mode": "butler_open",
+      "seconds": 7.984,
+      "cpu_percent_one_core": 0.764,
+      "rss_mib": 102.98,
+      "threads": 4,
+      "timers": {
+        "next_action": true,
+        "phase_timer": false,
+        "neglect_timer": true,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "pet_timer": true,
+      "orb_timer": false,
+      "seek_timer": false,
+      "seek_running": false,
+      "decoded_frame_bytes": 1310720,
+      "microphone": false,
+      "voice_pid": 0
+    },
+    {
+      "mode": "butler_hidden",
+      "seconds": 7.999,
+      "cpu_percent_one_core": 0.646,
+      "rss_mib": 102.99,
+      "threads": 4,
+      "timers": {
+        "next_action": true,
+        "phase_timer": false,
+        "neglect_timer": true,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "pet_timer": true,
+      "orb_timer": false,
+      "seek_timer": false,
+      "seek_running": false,
+      "decoded_frame_bytes": 1310720,
+      "microphone": false,
+      "voice_pid": 0
+    },
+    {
+      "mode": "game_sleep",
+      "seconds": 8.0,
+      "cpu_percent_one_core": 0.105,
+      "rss_mib": 101.04,
+      "threads": 4,
+      "timers": {
+        "next_action": false,
+        "phase_timer": false,
+        "neglect_timer": false,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "pet_timer": false,
+      "orb_timer": false,
+      "seek_timer": false,
+      "seek_running": false,
+      "decoded_frame_bytes": 0,
+      "microphone": false,
+      "voice_pid": 0
+    }
+  ],
+  "limitations": "Short offline sample; not Windows game, real GPU, ASR or hours-long memory endurance testing."
+}

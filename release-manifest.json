@@ -1,0 +1,18 @@
+{
+  "version": "0.4.1",
+  "archive": "QIAOMI-AI-v0.4.1-source.zip",
+  "bytes": 8839754,
+  "sha256": "9c8d6f8d968621e50f23c6df1e1e21c4bf07e3c042592056828a03b2bb2bbdf6",
+  "files": 412,
+  "tests": 373,
+  "failures": 0,
+  "new_v041_tests": 54,
+  "expanded_daily_cases": 2,
+  "new_frames": 140,
+  "total_frames": 252,
+  "windows_exe_built": false,
+  "windows_hardware_tested": false,
+  "gpu_tested": false,
+  "baseline_removed_files": [],
+  "privacy": "No private DB/config, recordings, models, keys or virtual environment; preview MP4 is muted Qt asset rendering"
+}

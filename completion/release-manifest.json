@@ -1,0 +1,17 @@
+{
+  "version": "0.4.0",
+  "build": "v0.4.0-completion.1",
+  "archive": "QIAOMI-AI-v0.4.0-complete-source.zip",
+  "bytes": 4568062,
+  "sha256": "a22024f8ece2826a46af84a8f732ade18d601a5135c3f5b6e71f253001a59975",
+  "files": 249,
+  "tests": 317,
+  "failures": 0,
+  "new_tests": 42,
+  "new_frames": 52,
+  "total_frames": 112,
+  "windows_exe_built": false,
+  "windows_hardware_tested": false,
+  "baseline_removed_files": [],
+  "privacy": "No private DB/config, recordings, models, keys or virtual environment"
+}

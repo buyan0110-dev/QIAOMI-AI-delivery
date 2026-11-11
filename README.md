@@ -1,3 +1,21 @@
+# 最新交付：QIAOMI AI v0.4.1 装饰尾巴与边界精修第2轮（候选）
+
+**[下载完整源码 ZIP（约83 MB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/QIAOMI-AI-v0.4.1-costume-tail.2-CANDIDATE-source.zip)**
+
+使用 Edge / Chrome 打开文件页，点击右上角 **Download raw file（下载箭头）**。当前是完整源码，未构建 Windows EXE。
+
+本轮精修21组98帧，原66张显著不透明边界警告清零；修改范围内低透明残留计数下降87.35%。摸头后三帧已去掉两只多余落地前爪，仅保留两只举起前爪和两只后爪。**404项自动化测试通过。全套透明羽化、连续动作与Windows11实机验收仍待完成。**
+
+[实际摸头前后对比](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/touch-head-before-after.png) · [耳尖前后对比](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/ears-before-after.png) · [实际Qt动画预览](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/actions-before-after.mp4) · [修复报告与安装验收](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/REPORT.zh-CN.md) · [测试结果](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/TEST_RESULTS.txt) · [逐帧状态](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/frame-status.csv) · [SHA256校验](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/SHA256SUMS.txt)
+
+先从托盘完全退出旧实例，再于独立新目录测试并备份用户数据。图片、清单与绘制代码须一同更新；已有EXE需重建。旧版本保留：[artfix.1候选](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.4.1-artfix.1) · [原v0.4.1](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.4.1)。
+
+## 原v0.4.1历史交付说明
+
+以下为历史记录，最新精修状态以上方报告为准。
+
+---
+
 # QIAOMI AI v0.4.1 — 桌宠生命系统2.0 / AI管家界面2.0
 
 [打开 v0.4.1 完整源码 ZIP 文件页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1/QIAOMI-AI-v0.4.1-source.zip)

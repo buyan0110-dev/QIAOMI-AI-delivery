@@ -1,3 +1,15 @@
+# v0.4.1 动画专项修复候选包
+
+[下载完整源码 ZIP](QIAOMI-AI-v0.4.1-artfix.1-CANDIDATE-source.zip)（文件页点击 Download raw file）
+
+**尚未全部验收完成。** 实际修改50张 WebP及渲染/命中代码；386项自动化测试通过。17张目标帧仍触发透明残留诊断，角色占比、尾根和动作连续性仍待精修。未进行 Windows 11 实机验证，未构建 EXE。
+
+[修复报告及待修帧](REPAIR_REPORT.zh-CN.md) · [边缘前后对比](edges-before-after.png) · [尾巴前后对比](tails-before-after.png) · [动作预览](touch-tail-preview.mp4) · [修改清单](changed-files.txt) · [测试结果](tests.txt)
+
+源码不含个人数据库、配置、模型、录音和虚拟环境。请在独立目录测试，备份现有用户数据。下文为原版历史说明，原版本分支保留。
+
+---
+
 # QIAOMI AI v0.4.1 — 桌宠生命系统2.0 / AI管家界面2.0
 
 [打开 v0.4.1 完整源码 ZIP 文件页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1/QIAOMI-AI-v0.4.1-source.zip)

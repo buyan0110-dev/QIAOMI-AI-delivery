@@ -1,0 +1,2 @@
+565c7bf62c1b3cc8aee2c32d4cc62f2e6dd3ed749b47f08a11050e3a8ccd2323  QIAOMI-AI-v0.4.1-artfix.1-CANDIDATE-patch.zip
+2ba21e41d05afd6ee048473b108c39a4c1566d051cb8a03f0d289168dbaed6cd  QIAOMI-AI-v0.4.1-artfix.1-CANDIDATE-source.zip

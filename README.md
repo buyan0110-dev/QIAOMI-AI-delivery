@@ -1,37 +1,42 @@
-# QIAOMI AI v0.3.2 — Windows 桌面与托盘升级
+# QIAOMI AI v0.4.0 — 超级黏人性格系统
 
-[打开 v0.3.2 完整源码 ZIP 文件页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/QIAOMI-AI-v0.3.2-source.zip)
+[打开 v0.4.0 完整源码 ZIP 文件页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/QIAOMI-AI-v0.4.0-source.zip)
 
-请用 Edge/Chrome 打开文件页，再点击右上角 ↓ Download raw file。当前交付为完整源码与 Windows 构建脚本，**没有已构建的 Windows EXE**。
+请使用 Edge/Chrome 打开文件页，再点右上角 **Download raw file（向下箭头）**。如果聊天内置浏览器打开下载链接会退出，请复制链接到外部浏览器。ZIP 约 2.69 MB，包含完整项目；这不是已构建的 Windows EXE。
 
-[安装与使用](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/INSTALL.md) · [Windows GUI 构建](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/WINDOWS_BUILD.md) · [Windows 验收表](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/WINDOWS_TEST_STEPS.md) · [测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/TEST_REPORT.md) · [变更文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/FILES_CHANGED.md) · [升级边界](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/UPGRADE.md) · [更新日志](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/CHANGELOG.md) · [Linux 测量原始数据](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/PERFORMANCE_LINUX.json)
+[安装与启动](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/INSTALL.md) · [Windows 构建](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/WINDOWS_BUILD.md) · [升级/数据保护](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/UPGRADE.md) · [Windows 验收](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/WINDOWS_TEST_STEPS.md) · [测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/TEST_REPORT.md) · [动画素材实况](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/ASSETS_STATUS.md) · [修改文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/FILES_CHANGED.md) · [更新日志](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/CHANGELOG.md) · [语音配置](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/VOICE.md)
 
-## 这次升级
+## 新增功能
 
-- 普通入口优先 windowed GUI EXE；源码备用用 pythonw，不经过 CMD/PowerShell。语音工作进程也使用 GUI 解释器/同一 windowed EXE。start.bat 保留调试。
-- 桌面“敲咪”快捷方式与橘猫 ICO；启动只显示宠物/托盘，恢复保存的位置/形象。
-- 聊天 X 只隐藏聊天，猫继续运行；托盘可恢复聊天、独立显示隐藏猫、打开语音设置和真正退出。
-- 原生 QSystemTrayIcon、Explorer 重启恢复与低频兜底；单实例锁+本地激活管道，重复启动唤回旧窗口。
-- 用户级 HKCU Run 自启动，默认关闭，固定原用户数据目录，无服务/管理员权限。
-- 手动游戏模式隐藏猫、停止动画/自动唤醒、取消当前任务并卸载自身语音缓存；手动聊天/语音仍可用。
-- 有界高 DPI 绘制缓存与降帧。原记忆数据库、主配置、音频采集算法、Ollama 传输与 start.bat 保持原内容，无数据库迁移。
+- 粉色睡衣橘猫：摸头闭眼、肉垫缩爪、三连击打滚；本地有限动作与文字气泡配合，不调用 AI 主动生成撒娇。
+- 手动“唤醒敲咪”后仅一次重逢：揉眼 → 惊喜 → 泪眼 → 迈步跑来 → 张爪求抱 → 短暂撒娇。可以跳过，不互动会逐渐恢复，不强制播放语音。
+- 工作/游戏造型佩戴圆形金丝边框眼镜，配小电脑/手柄。陪伴与重逢使用普通造型。
+- 撒娇/重逢/气泡可分别关闭，主动频率可调；默认高黏人，每 2–4 分钟一次短动作，任务繁忙/隐藏/眼镜造型时暂停主动撒娇。
+- 游戏深度休眠停止动画与性格调度、释放动画缓存、停止自身语音进程并拦截新推理/录音；**只有“唤醒敲咪”恢复，切换窗口与重启不会自动恢复**。
+- 延续 GUI 启动、托盘、单实例、自启动、长期记忆和 CPU int8 本地语音。新增独立 personality.json，原 SQLite 结构及语音采集算法未改动，无需数据库迁移。
 
-## 如何打开
+## 启动与升级
 
-源码首次执行 start.bat 准备环境，语音另用 install_voice.bat；再运行 install_shortcut.vbs 创建“敲咪”桌面图标，日常使用该图标或 start.vbs。已在 Windows 构建时优先运行完整 dist/QIAOMI-AI 中的 QIAOMI-AI.exe。不要移动现有 .venv，使用新目录升级并重建快捷方式；保留用户数据库、配置、模型与形象文件。
+先完全退出旧版并备份原用户数据目录；解压到新目录。start.bat 准备基础依赖，install_voice.bat 准备语音依赖；随后用 install_shortcut.vbs 创建“敲咪”桌面图标，日常双击图标或 start.vbs。start.bat 是有控制台的调试入口。模型保持原本地路径，不要移动旧虚拟环境，保留原数据库/配置/模型/自定义形象。
 
-设置页可打开“桌面 / 游戏模式 / 开机自启动”。游戏模式不扫描游戏、不截图、不注入、不装全局键盘钩子；进入游戏前手动开启。退出模式后麦克风唤醒仍关闭。独立 Ollama 服务的模型驻留按其自身策略管理，不承诺游戏显存完全释放。
+托盘 → “性格与形象”选择新造型。旧自定义形象继续保留；若想切换本次粉色睡衣素材，请在桌面设置主动恢复内置形象。缺失重逢动作会明确提示并跳过，不弹随机文字冒充动画。
 
-## 验证范围
+## 已验证与尚未验证
 
-**255 项自动化测试、Linux Qt 离屏启动自检、pip check 通过。Windows 11 新版实机、GUI EXE 构建、登录自启动、Explorer 托盘与游戏并行性能未验证。** Windows API 仅模拟，不可等同于实机通过。
+**275 项自动化测试通过，31 状态 Linux Qt 离屏自检通过，pip check 通过。** Windows 系统接口/音频相关测试包含模拟，不能当成实机成功。**Windows EXE 未构建，Windows 11 + HyperX + RTX 4070 Ti + 游戏并行性能未实测。** 构建脚本使用 PyInstaller windowed/console=False，需在 Windows 完成构建和验收。
 
-约 8 秒 Linux 离屏样本（单核口径、无 AI 权重）：猫咪待机 CPU 1.954% / RSS 92.69 MiB；游戏模式 0.468% / 86.36 MiB；隐藏待机 0.074% / 86.36 MiB。GPU 未测量，不能据此承诺 Windows/游戏零影响。
+八组重逢各 6 帧、眼镜工作/游戏各 6 帧，共 60 张独立透明 WebP。属于 AI 初版美术：半透明粉边/局部矩形羽化及动作衔接仍待精修；九类主动行为复用这些帧与局部画布变换，不宣称九套独立绘制动画全部完成。
+
+约 8 秒 Linux 离屏短样本（无模型，单核 CPU 口径）：普通待机 1.440% / 89.16 MiB；深度休眠 0.041% / 85.55 MiB；隐藏 0.076% / 85.58 MiB。休眠时动画/性格计时器停止、解码缓存 0、麦克风 inactive、语音进程 PID 0。**这不代表 Windows 或游戏零性能影响**。独立 Ollama 服务可能继续驻留模型，程序不强制终止共享服务。
+
+[性能原始数据](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/PERFORMANCE_LINUX.json) · [自动化测试 XML](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/TEST_RESULTS.xml) · [启动自检](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/SMOKE_RESULTS.json) · [源码比对](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/SOURCE_DELTA.json) · [发布清单](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/release-manifest.json)
 
 ZIP SHA-256：
 
 ```text
-94bb81a9cbb9c32228565bf611cfb982561e5f4635f2972ea4e8312e9f48a528
+dab424a9a8377ce4a729a42b15347002496737413950e99ac9c1157077386cd0
 ```
 
-[校验文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.3.2/QIAOMI-AI-v0.3.2-source.zip.sha256) · [v0.3.1](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.3.1) · [v0.3.0](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.3.0) · [v0.2.0](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.2.0)
+[校验文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.0/QIAOMI-AI-v0.4.0-source.zip.sha256)
+
+历史版本保持可用：[v0.3.2](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.3.2) · [v0.3.1](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.3.1) · [v0.3.0](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.3.0) · [v0.2.0](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.2.0)

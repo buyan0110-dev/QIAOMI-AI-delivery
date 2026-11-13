@@ -1,0 +1,9 @@
+{
+  "platform": "linux",
+  "qt_platform": "offscreen",
+  "screenshots": "real Qt QWidget.grab",
+  "tray": "simulated",
+  "private_data": "temporary synthetic only",
+  "game_cache_bytes": 0,
+  "runtime_errors": []
+}

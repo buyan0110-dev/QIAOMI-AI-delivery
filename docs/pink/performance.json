@@ -1,0 +1,46 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "qt_platform": "offscreen",
+  "tray_simulated": true,
+  "microphone_models_ai": false,
+  "sample_seconds": 3,
+  "measurements": [
+    {
+      "mode": "normal_hidden_butler",
+      "seconds": 3.001,
+      "cpu_percent_one_core": 2.833,
+      "rss_mib": 104.79,
+      "scene_cache_bytes": 0,
+      "scene_timers": 0,
+      "life_timer": true,
+      "pet_timer": true,
+      "voice_pid": 0,
+      "microphone": false
+    },
+    {
+      "mode": "manual_bath_visible",
+      "seconds": 3.001,
+      "cpu_percent_one_core": 9.208,
+      "rss_mib": 144.36,
+      "scene_cache_bytes": 27782672,
+      "scene_timers": 1,
+      "life_timer": true,
+      "pet_timer": true,
+      "voice_pid": 0,
+      "microphone": false
+    },
+    {
+      "mode": "game_deep_sleep",
+      "seconds": 3.001,
+      "cpu_percent_one_core": 0.732,
+      "rss_mib": 132.4,
+      "scene_cache_bytes": 0,
+      "scene_timers": 0,
+      "life_timer": false,
+      "pet_timer": false,
+      "voice_pid": 0,
+      "microphone": false
+    }
+  ],
+  "limits": "Short Linux isolated samples; Windows/GPU/real game/long run not tested."
+}

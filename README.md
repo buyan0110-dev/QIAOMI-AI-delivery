@@ -1,3 +1,23 @@
+# 最新交付：QIAOMI AI v0.5.0-pink.1 — 粉色管家整合候选
+
+**[下载完整源码 ZIP（约36 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/QIAOMI-AI-v0.5.0-pink.1-CANDIDATE-source.zip)**
+
+请用 Edge / Chrome 打开文件页，点右上角 **Download raw file（下载箭头）**。本包是源码，**没有已构建Windows EXE**。
+
+新增粉色管家首页、主窗口“照顾敲咪 / 洗澡澡 / 喂饭饭”。妈妈帮洗有女性手部持海绵，随页面鼠标互动；自动洗无手部。补充完整穿回睡衣四帧，新图集胸饰为红白宝可梦球。保留手动/自动/一键、原记忆/语音/桌宠/主题与游戏深眠。
+
+[实际首页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/previews/home.png) · [实际洗澡页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/previews/bath.png) · [实际喂食页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/previews/feed.png) · [完整穿衣收尾动画](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/previews/dressing-completion.mp4)
+
+**完整回归486项通过，最后渲染专项35项通过；截图为Linux真实Qt运行，非Windows实机。** 尚待：整合包独立完整需求书核对、旧桌宠WebP历史胸饰逐帧统一、Windows实机及EXE构建。新动画为独立关键帧配合程序效果，不能称为完整3D布料动画或已全部验收。
+
+[实现/安装/未完成项](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/IMPLEMENTATION.zh-CN.md) · [测试/性能/Windows步骤](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/TEST_REPORT.zh-CN.md) · [打包范围](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/docs/pink/PACKAGING.zh-CN.md) · [SHA256校验](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/SHA256SUMS.txt)
+
+旧托盘先完全退出，解压到新目录；首次start.bat，语音install_voice.bat，日常start.vbs或新快捷方式。换目录须重新配置快捷方式/自启动路径。新版首次自动备份配置和SQLite，数据目录及数据库结构不变。包内不含私人配置、数据库、模型、录音或虚拟环境。全部257个旧运行资源保留；为缩小体积省略旧文档对比媒体，旧交付包仍保留。
+
+以下为历史交付记录，当前状态以上方候选说明为准。
+
+---
+
 # 最新交付：QIAOMI AI v0.5.0 — 零负担自主生活
 
 **[下载完整源码 ZIP（约91 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/QIAOMI-AI-v0.5.0-source.zip)**

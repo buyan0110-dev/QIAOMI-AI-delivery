@@ -1,0 +1,11 @@
+{
+  "file": "QIAOMI-AI-v0.5.0-pink.1-CANDIDATE-source.zip",
+  "bytes": 37419483,
+  "files": 516,
+  "sha256": "c35dcd20019c112034eb86c8976ca330aff9c5e7745f54e3044071dbe56e7a06",
+  "crc": "passed",
+  "all_runtime_python_matches": "passed",
+  "original_assets_unchanged": 257,
+  "no_private_runtime_data": true,
+  "windows_exe": false
+}

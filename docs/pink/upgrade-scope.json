@@ -1,0 +1,40 @@
+{
+  "baseline": "v0.5.0-life.1",
+  "updated_runtime": {
+    "qiaomi/app.py": {
+      "before_sha256": "832acf6cf7003804dadea9daeb7f59fb5ab3fc2594023606fc90d89109625fa3",
+      "after_sha256": "60ffed5566fa654458c43b904d25e8f65889f525bdb2d08a37a2c52059ff429f"
+    },
+    "qiaomi/appearance.py": {
+      "before_sha256": "96d4e2f8de41a04ccc9ac558a00ef9a790ca27701a36c34d570d34ac76bbeb02",
+      "after_sha256": "26a78acb9ed1e2c0f9bba802f6849811ef5a1d665d3b8894ce8adc1aea1c8cfb"
+    },
+    "qiaomi/__init__.py": {
+      "before_sha256": "0b4cdd0953aeba737d3ff81122f482148848545b929850bf9b909eb5c52a29a6",
+      "after_sha256": "2e1b3e7e13056bd67fc2d578f27929152664cc9655114f3a48be943ddefc8434"
+    },
+    "qiaomi/upgrade.py": {
+      "before_sha256": "1ca45c996f1054f52b1b7c60149cfeecb571145daa9e5dc5061798f60662117c",
+      "after_sha256": "2e8500fada822c59b296bc56c0f8c8516fea283fffa63de3322ec3e94a242dc0"
+    },
+    "qiaomi/care.py": {
+      "before_sha256": "ce4f1c618f2745d40bd3c1ebd641f1479f3a5410a10f8512bca938a84c353682",
+      "after_sha256": "5728a0e62434e727576f2da1b5fcb504801ffa18398311aaadecf31994b0ea86"
+    },
+    "qiaomi/ui/assistant.py": {
+      "before_sha256": "9e8e2645f8f4390ebcb62110e94be2981dbdc2b199ec2f56b9b5e25f5e6e1eb7",
+      "after_sha256": "0d9156f76dc67b41f9c6cad41881bdacf7ca9fbbf457fb488006e0c3c0e8936b"
+    }
+  },
+  "new_art": {
+    "assets/butler/bathroom.png": "314dd2fed36995687a8399e766a267452914d474fa9f97474798fc71a48ed4a0",
+    "assets/butler/care-atlas.png": "95e6046bf1ee0e90f2687628d279fee42f632399b1273baa2a38da37824d26d5",
+    "assets/butler/mother-hand.png": "0b308df21c32937d3fbee0394757f3fee335193187a861e4bd12e85cde41b4d3",
+    "assets/butler/home.png": "d6a40849a416b2a224e6add4473ec42fb71266e3b8fa07aba303f97be95ba872",
+    "assets/butler/dining.png": "6077edd9e5984883bf3ff87b927046b994e5d7aea4fef8d5b847348cc41bdf95",
+    "assets/butler/dress-complete.png": "de85885b3e31c51cd325ba6f5ac8069ffdb164c6fcb8f5ad583a76b29598aeaa"
+  },
+  "new_runtime": {
+    "qiaomi/ui/butler.py": "8fa3cdedac1d4212a0ecc5f9e261bd8743fc91ecd9884e88b83ff9cbfebf1723"
+  }
+}

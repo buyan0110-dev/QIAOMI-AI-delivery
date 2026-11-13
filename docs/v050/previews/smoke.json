@@ -1,0 +1,61 @@
+{
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "qt_platform": "offscreen",
+  "tray_simulated": true,
+  "checks": [
+    "fish",
+    "bowl",
+    "quick_feed",
+    "quick_wash",
+    "wand",
+    "yarn",
+    "mouse",
+    "bath-all-stages",
+    "game-all-timers-stopped",
+    "system-resume-cannot-wake-game",
+    "manual-wake-restores",
+    "save-and-no-model-or-mic-worker"
+  ],
+  "metrics": [
+    {
+      "mode": "normal_idle",
+      "seconds": 2.5,
+      "cpu_percent_one_core": 1.261,
+      "rss_mib": 106.87,
+      "life_timer": true,
+      "life_action_timer": false,
+      "pet_timer": true,
+      "personality_timers": {
+        "next_action": true,
+        "phase_timer": false,
+        "neglect_timer": true,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "voice_pid": 0,
+      "microphone": false,
+      "decoded_frame_bytes": 3932160
+    },
+    {
+      "mode": "game_deep_sleep",
+      "seconds": 2.5,
+      "cpu_percent_one_core": 0.339,
+      "rss_mib": 102.1,
+      "life_timer": false,
+      "life_action_timer": false,
+      "pet_timer": false,
+      "personality_timers": {
+        "next_action": false,
+        "phase_timer": false,
+        "neglect_timer": false,
+        "dream_timer": false,
+        "mood_timer": false
+      },
+      "voice_pid": 0,
+      "microphone": false,
+      "decoded_frame_bytes": 0
+    }
+  ],
+  "limitations": "Real Qt widgets with isolated synthetic data; not Windows shell, real microphone, GPU, game or long-duration validation.",
+  "passed": true
+}

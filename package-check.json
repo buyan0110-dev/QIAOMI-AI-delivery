@@ -1,0 +1,10 @@
+{
+  "archive": "QIAOMI-AI-v0.5.0-source.zip",
+  "bytes": 95723723,
+  "files": 736,
+  "original_assets_preserved": 257,
+  "zip_crc_test": "passed",
+  "asset_sha256_test": "passed",
+  "sha256": "e71d3c0dee2e4662f1158efba7691570dcef8bbe7df37b49cc60250e97b33e78",
+  "excluded": "caches/venv/models/private config/database/backups/runtime logs; no Windows EXE generated"
+}

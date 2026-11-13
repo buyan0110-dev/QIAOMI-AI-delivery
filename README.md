@@ -1,3 +1,21 @@
+# 最新交付：QIAOMI AI v0.5.0 — 零负担自主生活
+
+**[下载完整源码 ZIP（约91 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/QIAOMI-AI-v0.5.0-source.zip)**
+
+用 Edge / Chrome 打开文件页，点击右上角 **Download raw file（下载箭头）**。本包是完整源码，**不是已构建的Windows EXE**。
+
+新增喂食、五阶段洗澡、逗猫棒/毛线球/玩具老鼠、3–5分钟闲置摸鱼、四项生活数值及免费自主照顾。离线不扣分，不会病死；游戏深眠停止生活活动，仅托盘手动唤醒。保留原长期记忆、语音、互动、主题和全部257个原资源文件。
+
+**455项自动化测试通过，Linux Qt流程通过；Windows11、真实麦克风、真实游戏和EXE运行未验证。** 新道具为程序绘制效果，部分猫姿复用旧动画，专用洗澡/捧鱼/追玩具精绘帧仍待补；原美术待审项未在本次重绘。
+
+先从旧托盘完全退出，解压到新目录；首次`start.bat`安装，语音`install_voice.bat`。日常`start.vbs`或`install_shortcut.vbs`。换目录须重建快捷方式、关闭再开启自启动以更新路径。首次启动新版先备份用户配置和SQLite，生活值新增独立life.json，不改数据库结构。包内不含私人数据库、个人配置、录音、模型和虚拟环境。
+
+[使用/升级/回滚与素材缺口](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/docs/v050/GUIDE.zh-CN.md) · [测试及Windows验收](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/docs/v050/TEST_REPORT.zh-CN.md) · [修改文件](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/docs/v050/FILES.zh-CN.md) · [实际洗澡截图](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/docs/v050/previews/bath-1.png) · [玩具截图](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/docs/v050/previews/wand.png) · [SHA256](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0/SHA256SUMS.txt)
+
+旧版本及原交付分支完整保留。下面为历史记录，本次状态以v0.5.0说明为准。
+
+---
+
 # 最新交付：QIAOMI AI v0.4.1 装饰尾巴与边界精修第2轮（候选）
 
 **[下载完整源码 ZIP（约83 MB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.4.1-costume-tail.2/QIAOMI-AI-v0.4.1-costume-tail.2-CANDIDATE-source.zip)**

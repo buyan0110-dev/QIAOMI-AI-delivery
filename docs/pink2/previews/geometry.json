@@ -1,0 +1,627 @@
+[
+  {
+    "name": "home-1080x780-100",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      825,
+      498
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          128.31,
+          171.08
+        ],
+        "viewport": [
+          273.0,
+          182.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overview-1080x780-100",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      825,
+      616
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": []
+  },
+  {
+    "name": "bath-1080x780-100",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      825,
+      616
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          182.595,
+          243.46
+        ],
+        "viewport": [
+          388.5,
+          259.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "feed-1080x780-100",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      825,
+      616
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          213.61499999999998,
+          284.82
+        ],
+        "viewport": [
+          454.5,
+          303.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "home-900x700-100",
+    "size": [
+      900,
+      700
+    ],
+    "page_viewport": [
+      636,
+      418
+    ],
+    "page_scroll_max": 68,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          119.85,
+          159.8
+        ],
+        "viewport": [
+          255.0,
+          170.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overview-900x700-100",
+    "size": [
+      900,
+      700
+    ],
+    "page_viewport": [
+      636,
+      536
+    ],
+    "page_scroll_max": 53,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": []
+  },
+  {
+    "name": "bath-900x700-100",
+    "size": [
+      900,
+      700
+    ],
+    "page_viewport": [
+      645,
+      536
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          126.195,
+          168.26000000000002
+        ],
+        "viewport": [
+          268.5,
+          179.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "feed-900x700-100",
+    "size": [
+      900,
+      700
+    ],
+    "page_viewport": [
+      645,
+      536
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          157.215,
+          209.62
+        ],
+        "viewport": [
+          334.5,
+          223.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "home-1280x800-100",
+    "size": [
+      1280,
+      800
+    ],
+    "page_viewport": [
+      1025,
+      518
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          142.41,
+          189.88000000000002
+        ],
+        "viewport": [
+          303.0,
+          202.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overview-1280x800-100",
+    "size": [
+      1280,
+      800
+    ],
+    "page_viewport": [
+      1025,
+      636
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": []
+  },
+  {
+    "name": "bath-1280x800-100",
+    "size": [
+      1280,
+      800
+    ],
+    "page_viewport": [
+      1025,
+      636
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          196.695,
+          262.26
+        ],
+        "viewport": [
+          418.5,
+          279.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "feed-1280x800-100",
+    "size": [
+      1280,
+      800
+    ],
+    "page_viewport": [
+      1025,
+      636
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          227.71499999999997,
+          303.62
+        ],
+        "viewport": [
+          484.5,
+          323.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "home-1080x780-150",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      1047,
+      364
+    ],
+    "page_scroll_max": 244,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          155.80499999999998,
+          207.74
+        ],
+        "viewport": [
+          331.5,
+          221.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overview-1080x780-150",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      1047,
+      509
+    ],
+    "page_scroll_max": 173,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": []
+  },
+  {
+    "name": "bath-1080x780-150",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      1056,
+      509
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          90.24,
+          120.32000000000001
+        ],
+        "viewport": [
+          192.0,
+          128.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "feed-1080x780-150",
+    "size": [
+      1080,
+      780
+    ],
+    "page_viewport": [
+      1056,
+      509
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          91.64999999999999,
+          122.2
+        ],
+        "viewport": [
+          195.0,
+          130.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "home-1500x1040-100",
+    "size": [
+      1500,
+      1040
+    ],
+    "page_viewport": [
+      1245,
+      758
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          280.59,
+          374.12
+        ],
+        "viewport": [
+          597.0,
+          398.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "overview-1500x1040-100",
+    "size": [
+      1500,
+      1040
+    ],
+    "page_viewport": [
+      1245,
+      876
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": []
+  },
+  {
+    "name": "bath-1500x1040-100",
+    "size": [
+      1500,
+      1040
+    ],
+    "page_viewport": [
+      1245,
+      876
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          365.895,
+          487.86
+        ],
+        "viewport": [
+          778.5,
+          519.0
+        ]
+      }
+    ]
+  },
+  {
+    "name": "feed-1500x1040-100",
+    "size": [
+      1500,
+      1040
+    ],
+    "page_viewport": [
+      1245,
+      876
+    ],
+    "page_scroll_max": 0,
+    "horizontal_max": 0,
+    "corner_alpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "scene_ratios": [
+      {
+        "frame": [
+          543,
+          724
+        ],
+        "destination": [
+          396.91499999999996,
+          529.22
+        ],
+        "viewport": [
+          844.5,
+          563.0
+        ]
+      }
+    ]
+  }
+]

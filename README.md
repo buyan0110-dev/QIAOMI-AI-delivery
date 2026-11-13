@@ -1,3 +1,26 @@
+# 最新交付：QIAOMI AI v0.5.0-pink.2 — 比例、完整圆角与浴缸遮挡修复
+
+**[下载修复后的完整源码 ZIP（约31 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/QIAOMI-AI-v0.5.0-pink.2-CANDIDATE-source.zip)**
+
+用 Edge / Chrome 打开文件页，点击 **Download raw file（下载箭头）**。当前为候选源码，**没有已构建Windows EXE**。
+
+- 右上角为最小化、最大化／还原、关闭三按钮，**保持原粉色底**，不改成灰色底；关闭仍只隐藏管家，托盘可真正退出。
+- 角色按图集每帧真实宽高比绘制，不再把竖长图画成正方形；背景等比完整显示，原图片未压缩/替换。
+- 外框四角固定完整透明圆角，只有内容滚动；1080×780标准字号下首页、概览、洗澡、喂食均完整显示。
+- 所有洗澡状态共用浴缸前景遮挡，猫咪脚爪/尾巴不再压到浴缸前壁上。
+
+[右上角粉色按钮](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/caption-normal.png) · [最大化后的还原图标](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/caption-restore.png) · [实际首页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/home-1080x780-100.png) · [实际洗澡](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/manual-bath-1080x780.png) · [实际喂食](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/manual-feed-1080x780.png)
+
+**完整回归578项通过；最后保留粉色按钮底的调整，另跑92项按钮/几何专项通过。** 264个运行资源不变，生活/语音/记忆/游戏状态机原代码保留。截图为Linux真实Qt运行，不是Windows实机；Windows11/DPI/DWM/EXE仍待验证。历史胸饰逐帧统一与完整独立需求书核对等未完成项未虚报完成。
+
+[修复原因/文件/安装](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/FIX_REPORT.zh-CN.md) · [测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/TEST_REPORT.zh-CN.md) · [修复前浴缸层次](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/before-bath.png) · [修复后待洗澡](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/docs/pink2/previews/bath-1080x780-100.png) · [SHA256校验](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/SHA256SUMS.txt)
+
+先旧托盘完全退出，解压新目录，首次start.bat，日常start.vbs或新快捷方式；换目录需更新快捷方式/自启动路径。原用户数据和模型保留，无数据结构迁移。源码包不含私人数据库、配置、录音、模型或虚拟环境。历史对比媒体在旧交付分支保留，打包范围见docs/pink2/PACKAGING.zh-CN.md。
+
+下面为历史交付记录，当前状态以pink.2报告为准。
+
+---
+
 # 最新交付：QIAOMI AI v0.5.0-pink.1 — 粉色管家整合候选
 
 **[下载完整源码 ZIP（约36 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.1/QIAOMI-AI-v0.5.0-pink.1-CANDIDATE-source.zip)**

@@ -1,0 +1,13 @@
+{
+  "baseline": "v0.5.0-pink.2",
+  "updated_runtime": {
+    "qiaomi/app.py": {
+      "before_sha256": "60ffed5566fa654458c43b904d25e8f65889f525bdb2d08a37a2c52059ff429f",
+      "after_sha256": "abdc0334b5e78e4a5ab9698933e3c2169888e4ff89851609827f2fce21cb3606"
+    },
+    "qiaomi/__init__.py": {
+      "before_sha256": "6577f8a59902b25b11f40c5b809f4a65ad91bed23855ddf0bbd0163db025d9bb",
+      "after_sha256": "235b130c75c59338f7c967d8698b8bb13940e6b752bb660a1235f6d4ad862268"
+    }
+  }
+}

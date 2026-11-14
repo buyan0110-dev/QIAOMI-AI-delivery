@@ -1,3 +1,17 @@
+# v0.6.0 P0 开发检查点（尚非完整v0.6.0）
+
+**[下载P0检查点源码 ZIP](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0/QIAOMI-v0.6.0-P0-CHECKPOINT-source.zip)**
+
+本包只完成项目审核、独立玩法配置、升级前备份及新增事件许可/取消地基。**F01–F10及五个新页面尚未实现，P1–P4仍待开发，不能作为最终版本验收。** 没有将HTML里的示例收藏/回忆导入用户数据。
+
+原pink.2基线578项通过；P0集成回归94项通过。Windows11实机和EXE未验证/未生成。保留原素材、数据及现有功能。完整状态、修改文件、素材缺口、启动/构建说明见[P0报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0/docs/v060/P0_STATUS.zh-CN.md)；[测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0/docs/v060/TEST_REPORT.md)；[SHA256](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0/SHA256SUMS.txt)。
+
+日常可用版本入口仍保留：[pink.2完整源码](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/QIAOMI-AI-v0.5.0-pink.2-CANDIDATE-source.zip)。测试检查点前先托盘完全退出旧实例，在新目录启动并保留原用户数据/模型。首次start.bat，日常start.vbs；新目录重新创建快捷方式/更新自启动路径。
+
+使用Edge/Chrome打开ZIP文件页，再点 **Download raw file（下载箭头）**。本包无私人数据库、配置、录音、模型或虚拟环境。下方为原pink.2历史说明。
+
+---
+
 # 最新交付：QIAOMI AI v0.5.0-pink.2 — 比例、完整圆角与浴缸遮挡修复
 
 **[下载修复后的完整源码 ZIP（约31 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/QIAOMI-AI-v0.5.0-pink.2-CANDIDATE-source.zip)**

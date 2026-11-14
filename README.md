@@ -2,6 +2,8 @@
 
 **[下载修复后的完整源码 ZIP（约31 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/QIAOMI-AI-v0.5.0-pink.2-CANDIDATE-source.zip)**
 
+> 开发进度：[v0.6.0 P0检查点](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.6.0-p0)已上传，仅审核/备份/事件门禁地基；**F01–F10和新页面尚未完成，不是完整v0.6.0**。当前pink.2可用版本下载保持不变。
+
 用 Edge / Chrome 打开文件页，点击 **Download raw file（下载箭头）**。当前为候选源码，**没有已构建Windows EXE**。
 
 - 右上角为最小化、最大化／还原、关闭三按钮，**保持原粉色底**，不改成灰色底；关闭仍只隐藏管家，托盘可真正退出。

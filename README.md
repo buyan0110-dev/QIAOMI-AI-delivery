@@ -2,7 +2,7 @@
 
 **[下载修复后的完整源码 ZIP（约31 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/QIAOMI-AI-v0.5.0-pink.2-CANDIDATE-source.zip)**
 
-> 开发进度：[v0.6.0 P0检查点](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.6.0-p0)已上传，仅审核/备份/事件门禁地基；**F01–F10和新页面尚未完成，不是完整v0.6.0**。当前pink.2可用版本下载保持不变。
+> 开发进度：[P0-fix.1审查修正版](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/tree/delivery/v0.6.0-p0-fix.1)已上传：分类门禁、交互前置清理、事件token与快照标签已修正，**修正源码完整624项测试通过**。**F01–F10与新UI仍未完成，不是完整v0.6.0**；Windows实机/EXE待验。当前pink.2可用版本下载和旧P0分支均保留。
 
 用 Edge / Chrome 打开文件页，点击 **Download raw file（下载箭头）**。当前为候选源码，**没有已构建Windows EXE**。
 

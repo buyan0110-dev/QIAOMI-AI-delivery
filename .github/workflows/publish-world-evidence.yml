@@ -1,0 +1,32 @@
+name: Publish verified world delivery evidence
+on:
+  push:
+    branches: [delivery/v0.6.0-world-candidate.1]
+    paths: [.github/workflows/publish-world-evidence.yml, delivery-proof-trigger.txt]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify source ZIP
+        run: |
+          sha256sum -c WORLD-SHA256SUMS.txt
+          python - <<'PY'
+          import zipfile,json,hashlib
+          p='QIAOMI-v0.6.0-P1-P3-CANDIDATE-source.zip'
+          with zipfile.ZipFile(p) as z:
+              assert z.testzip() is None
+              assert b'685 passed' in z.read('QIAOMI-AI/docs/world/final-full.txt')
+              assert json.loads(z.read('QIAOMI-AI/docs/world/windows-frozen-smoke.json'))['passed'] is True
+              agreement=json.loads(z.read('QIAOMI-AI/docs/world/source-runtime-agreement.json'))
+              for name,sha in agreement['sha256'].items():
+                  assert hashlib.sha256(z.read('QIAOMI-AI/'+name)).hexdigest()==sha,name
+          PY
+      - name: Upload source and evidence only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh release upload v0.6.0-world-candidate.2 --repo "$GITHUB_REPOSITORY" --clobber QIAOMI-v0.6.0-P1-P3-CANDIDATE-source.zip WORLD-SHA256SUMS.txt docs/world/windows-binary-check.json

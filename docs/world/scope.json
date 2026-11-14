@@ -1,0 +1,49 @@
+{
+  "updated_runtime": {
+    "qiaomi/companion_data.py": {
+      "after_sha256": "8b29ce1568aa422181716a7eb106fcb600b546751bad0606a9035cccd498c12a"
+    },
+    "qiaomi/companion_runtime.py": {
+      "after_sha256": "65da339a43cb7cf6e11d7eacfed7be82879a3df7bf34fd8a6be64101221c9570"
+    },
+    "qiaomi/companion_policy.py": {
+      "after_sha256": "3c5f4266923f19609e4acef2a829ac3d47a375848b1c58d82e842211dab1dc1d"
+    },
+    "qiaomi/app.py": {
+      "after_sha256": "d8d140741ecba131371c669e5fd4ebe3d500a514624db37e8b6f2c6cfb6454b9"
+    },
+    "qiaomi/companion_stories.py": {
+      "after_sha256": "7b71422277325c7535e68e520c93e49c4a5ab0d31589d14eee711736c2cbbf00"
+    },
+    "qiaomi/personality.py": {
+      "after_sha256": "f56336fe01fbfc960e161b53717ae9a3f0971fe1bb0028dd3d89990436753a4a"
+    },
+    "qiaomi/__init__.py": {
+      "after_sha256": "d036cb0c93693c0ec036813af4ca7ce8a27f3cc2933c5732768a8b694b5f9c25"
+    },
+    "qiaomi/upgrade.py": {
+      "after_sha256": "7cacb658883b9adab8151f934ef9b7eb6beac6fb130d9ba256f10491befa3519"
+    },
+    "qiaomi/care.py": {
+      "after_sha256": "8a5d3a523542c6411aa3e513ad413f01451e69bca1145213aae47bab7a88bcac"
+    },
+    "qiaomi/ui/assistant.py": {
+      "after_sha256": "48ef7f09457ef66a10392c25b100b56e05a622d4877ca51b0b3f7218ebcd62cb"
+    },
+    "qiaomi/ui/world.py": {
+      "after_sha256": "15597e65f4f0550bc8901ae8dfb07544c9c67eaa4bf37e408cb154b3a2f956cd"
+    },
+    "qiaomi/ui/minigames.py": {
+      "after_sha256": "0364245bba52c94676f827546ea575916cf0d3b11385a91f657fd4ca050236b6"
+    },
+    "qiaomi/ui/pet.py": {
+      "after_sha256": "359c726603c67133da31839c00f69fe8d96deeea8918c126b873197cc6a10b29"
+    },
+    "qiaomi/ui/companion_settings.py": {
+      "after_sha256": "0e6ee9dfaa3976e641f5131f75ab6113e7dfea705aeda4aa3881e8d0482667f3"
+    },
+    "qiaomi/ui/ambient_effects.py": {
+      "after_sha256": "8ffc072831b3904c05763a54dc6eb4685b1a10e0f708ea708dc53fdcfd65ce48"
+    }
+  }
+}

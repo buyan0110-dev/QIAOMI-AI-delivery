@@ -1,0 +1,31 @@
+{
+  "updated_runtime": {
+    "qiaomi/companion_runtime.py": {
+      "after_sha256": "3c8cb87fa520c21665a8892a08dafe8a4769c0f2fd12eaccd94000c3455a961d"
+    },
+    "qiaomi/companion_policy.py": {
+      "after_sha256": "dcae08749cb66054a04ebd8e890c7de3bab83a52496b7f8f07e4a98637156d4e"
+    },
+    "qiaomi/app.py": {
+      "after_sha256": "0a71729708b21d5d447b87266ce10b637285c96a5d87ff7997fc5873ffebf4d2"
+    },
+    "qiaomi/personality.py": {
+      "after_sha256": "f56336fe01fbfc960e161b53717ae9a3f0971fe1bb0028dd3d89990436753a4a"
+    },
+    "qiaomi/__init__.py": {
+      "after_sha256": "7fac746af966adce51f9c824b78c1fbd4ad1848a8934845eafd6d48d5fabe8d1"
+    },
+    "qiaomi/ui/assistant.py": {
+      "after_sha256": "b7760564743e2799ea41d9bd654670bcc9d7ae71c88b99a47f7ce7e7a9c40074"
+    },
+    "qiaomi/ui/pet.py": {
+      "after_sha256": "8c1d13eb8ccaaf3d907b8fccbbfab6595a23826728faa70ecb95ad4c486903b3"
+    },
+    "qiaomi/ui/companion_settings.py": {
+      "after_sha256": "0ed533d92cd1654b24236a82f805416edf629ef3722b3700b2b86ffc1dfbaa88"
+    },
+    "qiaomi/ui/ambient_effects.py": {
+      "after_sha256": "b071d44a5af1e2331c2573f86bfa5e635bc5e09c8a1c59dd34c7293a676f9a2e"
+    }
+  }
+}

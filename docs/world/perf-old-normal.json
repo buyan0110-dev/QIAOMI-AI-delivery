@@ -1,0 +1,15 @@
+{
+  "mode": "normal",
+  "elapsed_s": 9.605,
+  "cpu_one_core_percent": 1.057,
+  "max_rss_MiB": 104.34,
+  "controller_active_timers": 4,
+  "qt_platform": "offscreen",
+  "gpu": "not measured",
+  "timers": [
+    10000,
+    599858,
+    135000,
+    5000
+  ]
+}

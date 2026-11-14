@@ -1,0 +1,67 @@
+# 修改文件（对比实际 P0-fix.1）
+
+- `CHANGELOG.md`
+- `README.md`
+- `TEST_REPORT.md`
+- `docs/p0fix/scope.json`
+- `qiaomi/__init__.py`
+- `qiaomi/app.py`
+- `qiaomi/care.py`
+- `qiaomi/companion_policy.py`
+- `qiaomi/personality.py`
+- `qiaomi/ui/assistant.py`
+- `qiaomi/ui/pet.py`
+- `qiaomi/upgrade.py`
+- `tests/test_costume_tail_assets.py`
+- `tests/test_pink_geometry.py`
+
+## 新增文件
+
+- `docs/p1/fix2-tests.txt`
+- `docs/p1/fix2-tests.xml`
+- `docs/p1/full-tests.txt`
+- `docs/p1/full-tests.xml`
+- `docs/p1/scope.json`
+- `docs/world/CHANGED_FILES.md`
+- `docs/world/IMPLEMENTATION.zh-CN.md`
+- `docs/world/PERFORMANCE.zh-CN.md`
+- `docs/world/TEST_REPORT.zh-CN.md`
+- `docs/world/WINDOWS_ACCEPTANCE.zh-CN.md`
+- `docs/world/changes.json`
+- `docs/world/final-full.txt`
+- `docs/world/final-full.xml`
+- `docs/world/final-smoke.json`
+- `docs/world/final-smoke.txt`
+- `docs/world/p2-full.txt`
+- `docs/world/p2-full.xml`
+- `docs/world/p3-full.txt`
+- `docs/world/p3-full.xml`
+- `docs/world/perf-new-game.json`
+- `docs/world/perf-new-normal.json`
+- `docs/world/perf-old-game.json`
+- `docs/world/perf-old-normal.json`
+- `docs/world/scope.json`
+- `docs/world/screenshots/album.png`
+- `docs/world/screenshots/collection.png`
+- `docs/world/screenshots/paw-game.png`
+- `docs/world/screenshots/room.png`
+- `docs/world/screenshots/settings.png`
+- `docs/world/screenshots/today.png`
+- `docs/world/screenshots/toys.png`
+- `docs/world/test-host.txt`
+- `qiaomi/companion_data.py`
+- `qiaomi/companion_runtime.py`
+- `qiaomi/companion_stories.py`
+- `qiaomi/ui/ambient_effects.py`
+- `qiaomi/ui/companion_settings.py`
+- `qiaomi/ui/minigames.py`
+- `qiaomi/ui/world.py`
+- `scripts/measure_world_linux.py`
+- `scripts/preview_world.py`
+- `tests/test_companion_p1.py`
+- `tests/test_companion_p2.py`
+- `tests/test_companion_p3.py`
+- `tests/test_companion_p4.py`
+- `tests/test_policy_fix2.py`
+
+原 264 运行资源逐文件一致，没有删除原源码文件。

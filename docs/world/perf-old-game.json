@@ -1,0 +1,12 @@
+{
+  "mode": "game",
+  "elapsed_s": 10.032,
+  "cpu_one_core_percent": 0.015,
+  "max_rss_MiB": 99.97,
+  "controller_active_timers": 1,
+  "qt_platform": "offscreen",
+  "gpu": "not measured",
+  "timers": [
+    10000
+  ]
+}

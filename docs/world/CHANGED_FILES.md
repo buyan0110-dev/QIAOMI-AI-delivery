@@ -10,10 +10,13 @@
 - `qiaomi/companion_policy.py`
 - `qiaomi/personality.py`
 - `qiaomi/ui/assistant.py`
+- `qiaomi/ui/butler.py`
+- `qiaomi/ui/life_panel.py`
 - `qiaomi/ui/pet.py`
 - `qiaomi/upgrade.py`
 - `tests/test_costume_tail_assets.py`
 - `tests/test_pink_geometry.py`
+- `tests/test_v050_life.py`
 
 ## 新增文件
 
@@ -40,6 +43,8 @@
 - `docs/world/perf-new-normal.json`
 - `docs/world/perf-old-game.json`
 - `docs/world/perf-old-normal.json`
+- `docs/world/pre-ci-681-full.txt`
+- `docs/world/pre-ci-681-full.xml`
 - `docs/world/scope.json`
 - `docs/world/screenshots/album.png`
 - `docs/world/screenshots/collection.png`
@@ -49,6 +54,7 @@
 - `docs/world/screenshots/today.png`
 - `docs/world/screenshots/toys.png`
 - `docs/world/test-host.txt`
+- `docs/world/windows-first-failed.txt`
 - `qiaomi/companion_data.py`
 - `qiaomi/companion_runtime.py`
 - `qiaomi/companion_stories.py`
@@ -56,6 +62,7 @@
 - `qiaomi/ui/companion_settings.py`
 - `qiaomi/ui/minigames.py`
 - `qiaomi/ui/world.py`
+- `scripts/diagnose_world_windows.py`
 - `scripts/measure_world_linux.py`
 - `scripts/preview_world.py`
 - `tests/test_companion_p1.py`

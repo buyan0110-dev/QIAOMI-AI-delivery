@@ -2,9 +2,11 @@
 
 **[下载完整源码 ZIP](QIAOMI-v0.6.0-P1-P3-CANDIDATE-source.zip)** · [修改文件](docs/world/CHANGED_FILES.md) · [逐项功能与素材缺口](docs/world/IMPLEMENTATION.zh-CN.md) · [测试报告](docs/world/TEST_REPORT.zh-CN.md) · [实际 Qt 截图](docs/world/screenshots/) · [Windows启动与验收](docs/world/WINDOWS_ACCEPTANCE.zh-CN.md)
 
-已从真实 P0-fix.1 增量修正两项基础问题，并实现 F01–F10 的本地逻辑、五个新 PySide6 页面与小游戏。最终 Linux 完整回归 **681 passed / 269.45秒**；此前分阶段629/651/658/666项全量通过。原264运行资源哈希完全不变，没有包含私人数据库/模型/录音/配置。
+已从真实 P0-fix.1 增量修正两项基础问题，并实现 F01–F10 的本地逻辑、五个新 PySide6 页面与小游戏。最终 Linux 完整回归 **685 passed / 264.83秒**；此前分阶段629/651/658/666项全量通过。原264运行资源哈希完全不变，没有包含私人数据库/模型/录音/配置。
 
 **新增微动作/道具/家具含明确轻量占位，精绘未完成；Windows11真实麦克风/游戏/双屏/无黑窗与最终EXE实机验收未完成。** 新窗口沿用旧粉/浅/深主题，原功能保留。
+
+candidate.2 还修正了自动陪伴开关误取消 F08、Windows 字体/窄屏布局和跨平台路径测试。首轮 Windows CI 675通过/6失败，当前重新验证，未跳过测试。
 
 Windows CI 将尝试在 GitHub Windows runner 上完整测试和构建 GUI EXE；只有实际成功产出才提供便携包，不把 CI 当作 Windows11+HyperX 真机验证。下载后完整解压，先退出旧托盘，保留原用户数据目录。首次 start.bat，日常 start.vbs；新收藏相册 sidecar 不修改旧记忆库Schema。
 

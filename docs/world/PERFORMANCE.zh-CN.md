@@ -1,5 +1,7 @@
 # Linux 离屏短测，非 Windows 游戏性能认证
 
+采样来自 candidate.1 阶段（后续 candidate.2 为边界取消/布局修补，未重新声称测得同样数值）。
+
 方法：同一容器，Python3.12/PySide6 offscreen，隔离数据，显示原猫并跳过启动欢迎；2 秒稳定后约 10 秒取 process CPU time / wall time，RSS 为进程启动后峰值。原基线 v0.6.0-P0-fix.1 对比本候选，未加载模型/开麦。测量脚本 `scripts/measure_world_linux.py`，原始 JSON 与 test-host.txt 同目录。
 
 | 场景 | 基线 单核CPU% | 候选 单核CPU% | 基线峰值RSS MiB | 候选峰值RSS MiB |

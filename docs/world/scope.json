@@ -4,7 +4,7 @@
       "after_sha256": "8b29ce1568aa422181716a7eb106fcb600b546751bad0606a9035cccd498c12a"
     },
     "qiaomi/companion_runtime.py": {
-      "after_sha256": "65da339a43cb7cf6e11d7eacfed7be82879a3df7bf34fd8a6be64101221c9570"
+      "after_sha256": "0834f61394f778a32bc5bd10419c1dcd8084d5888f579dc2a03b5e0995f82d91"
     },
     "qiaomi/companion_policy.py": {
       "after_sha256": "3c5f4266923f19609e4acef2a829ac3d47a375848b1c58d82e842211dab1dc1d"
@@ -19,7 +19,7 @@
       "after_sha256": "f56336fe01fbfc960e161b53717ae9a3f0971fe1bb0028dd3d89990436753a4a"
     },
     "qiaomi/__init__.py": {
-      "after_sha256": "d036cb0c93693c0ec036813af4ca7ce8a27f3cc2933c5732768a8b694b5f9c25"
+      "after_sha256": "d2c1fe0be53cd3bf892855947ee9581c055fe4e21faf09c0ac99e9808ffb1214"
     },
     "qiaomi/upgrade.py": {
       "after_sha256": "7cacb658883b9adab8151f934ef9b7eb6beac6fb130d9ba256f10491befa3519"
@@ -44,6 +44,12 @@
     },
     "qiaomi/ui/ambient_effects.py": {
       "after_sha256": "8ffc072831b3904c05763a54dc6eb4685b1a10e0f708ea708dc53fdcfd65ce48"
+    },
+    "qiaomi/ui/butler.py": {
+      "after_sha256": "12865b6c76d3e53f708e92f572db64d6fb806708bd4b34e3b596483f5303e248"
+    },
+    "qiaomi/ui/life_panel.py": {
+      "after_sha256": "54ecbf9aad08af88be8bd6d703f4bcbbae6492b6556a2f198d16b242dac85cec"
     }
   }
 }

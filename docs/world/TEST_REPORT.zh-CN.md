@@ -22,3 +22,8 @@ P1 新增22项，P2新增7项，P3新增8项，P4新增19项；此前两项政�
 `final-smoke.json` 的 Linux 离线启动检查 passed=true，包含旧渲染、聊天持久化、记忆备份/导入、正常退出。截图为隔离演示数据的实际 Qt offscreen 输出。
 
 未验证：Windows11/Explorer/自启动/真实全屏与输入时间、真实声卡/Whisper/TTS/Ollama、双屏物理DPI、真正游戏负载、GPU。Windows CI 构建如产生额外证据将单独附上，不冒充 Windows11用户实机测试。美术资源本次保持原样，格式/哈希测试不能证明角色解剖或动作已经精绘完成。
+
+
+## Windows CI 第二轮实际结果
+
+WindowsServer2025 / Python3.12：**685 passed / 287.17秒，0失败、0错误、0跳过**（windows-full.xml）。GUI EXE构建成功，打包程序91项启动检查全部通过（windows-frozen-smoke.json）。下载后二次ZIP CRC/SHA256检查、AMD64/GUI子系统2、原264资源一致性通过（windows-binary-check.json）。详见 WINDOWS_CI。源码ZIP只补录这些文档与证据，运行源码/测试/资源与CI输入逐字节一致。

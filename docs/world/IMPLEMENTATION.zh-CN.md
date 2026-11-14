@@ -1,6 +1,6 @@
 # v0.6.0 P1–P3 功能候选版
 
-本次基线为实际交付的 v0.6.0-P0-fix.1，不是从空目录重写。沿用 Python / PySide6 / SQLite / 本地语音与 Ollama。先修框架，再进入 P1、P2、P3。P4 的 Linux 回归与打包准备已做，Windows 构建与实机验收尚未完成，不能视为最终 Windows 发布版。
+本次基线为实际交付的 v0.6.0-P0-fix.1，不是从空目录重写。沿用 Python / PySide6 / SQLite / 本地语音与 Ollama。先修框架，再进入 P1、P2、P3。P4 的 Linux 与 WindowsServer2025 CI 回归、GUI EXE 构建与打包启动自检已完成；Windows11 实机验收尚未完成，不能视为最终 Windows 发布版。
 
 ## 本次审查修正
 
@@ -40,10 +40,10 @@
 
 ## 尚未完成的验收
 
-Windows 11 GUI/Explorer 托盘、EXE 无黑窗、真实 HyperX/Whisper/TTS/Ollama、双屏与物理 DPI、真实游戏/CPU/GPU/内存表现未验证。当前环境 Linux，不能交付已验证 Windows EXE。`build_windows.bat` 和 windowed PyInstaller 配置继续提供；待 Windows 构建并运行下面验收清单。上述精绘资源缺口均以轻量效果占位，未假称美术完成。
+Windows 11 GUI/Explorer 托盘、EXE 无黑窗、真实 HyperX/Whisper/TTS/Ollama、双屏与物理 DPI、真实游戏/CPU/GPU/内存表现未验证。本地环境 Linux；已借 WindowsServer2025 CI 产出 GUI EXE 并通过打包启动自检，见 WINDOWS_CI 文档。`build_windows.bat` 和 windowed PyInstaller 配置继续提供；用户仍需在 Windows11 按验收清单实测。上述精绘资源缺口均以轻量效果占位，未假称美术完成。
 
 ## 交付复查补丁 candidate.2
 
 进一步分离“自动陪伴生产者停机”和“全局事件取消”：关闭自动陪伴或减少动画，只清理该生产者自己的 token，不再撤销外部 F08 会话。游戏/系统休眠/功能禁用仍由统一策略硬门禁取消。新增两项真实Qt回归验证用户小游戏在所有自动陪伴关闭和减少动画时仍可运行。
 
-Windows Server 2025 CI 首轮实际为675通过、6失败，构建因失败未执行。已修正真实窄屏布局与150%字号按钮溢出：Stats从两列开始，并按卡片真实最小宽度选列数；旧生活面板大字号切为单列。资源完整性测试统一 `as_posix()`，保留所有哈希断言。这些不是将失败测试跳过。第二轮CI结果另附，不能将首轮失败说成通过。
+Windows Server 2025 CI 首轮实际为675通过、6失败，构建因失败未执行。已修正真实窄屏布局与150%字号按钮溢出：Stats从两列开始，并按卡片真实最小宽度选列数；旧生活面板大字号切为单列。资源完整性测试统一 `as_posix()`，保留所有哈希断言。这些不是将失败测试跳过。第二轮CI已完整685项通过、GUI构建及打包启动自检通过（见 WINDOWS_CI），首轮失败记录保留。

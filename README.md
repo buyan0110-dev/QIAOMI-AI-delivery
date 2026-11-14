@@ -6,9 +6,13 @@
 
 **新增微动作/道具/家具含明确轻量占位，精绘未完成；Windows11真实麦克风/游戏/双屏/无黑窗与最终EXE实机验收未完成。** 新窗口沿用旧粉/浅/深主题，原功能保留。
 
-candidate.2 还修正了自动陪伴开关误取消 F08、Windows 字体/窄屏布局和跨平台路径测试。首轮 Windows CI 675通过/6失败，当前重新验证，未跳过测试。
+candidate.2 还修正了自动陪伴开关误取消 F08、Windows 字体/窄屏布局和跨平台路径测试。首轮 Windows CI 675通过/6失败，第二轮已全部通过，未跳过测试。
 
-Windows CI 将尝试在 GitHub Windows runner 上完整测试和构建 GUI EXE；只有实际成功产出才提供便携包，不把 CI 当作 Windows11+HyperX 真机验证。下载后完整解压，先退出旧托盘，保留原用户数据目录。首次 start.bat，日常 start.vbs；新收藏相册 sidecar 不修改旧记忆库Schema。
+**WindowsServer2025 CI：685项完整回归通过，GUI EXE构建成功，91项打包启动检查通过。** 下载后二次核验ZIP/SHA256、AMD64 GUI子系统2与264资源一致性通过。仍不是Windows11+HyperX/真实游戏验收。
+
+**[下载Windows便携版（约200MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/releases/download/v0.6.0-world-candidate.2/QIAOMI-AI-Windows-x64.zip)** · [全部下载/发布页](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/releases/tag/v0.6.0-world-candidate.2) · [Windows证据与构建追溯](docs/world/WINDOWS_CI.zh-CN.md)
+
+先退出旧托盘，完整解压到新文件夹，运行其中QIAOMI-AI.exe；保留原用户数据目录。源码ZIP仅补录CI证据，运行代码/构建输入/测试/264资源与构建提交b9b9498逐字节一致。
 
 旧交付保留如下：
 

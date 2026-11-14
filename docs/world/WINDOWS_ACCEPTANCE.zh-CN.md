@@ -10,7 +10,7 @@
 
 ## Windows 构建
 
-需要 Windows x64 + Python3.12，执行 `build_windows.bat`。PyInstaller `qiaomi.spec` 保留 `console=False`，收集 qiaomi/PySide6/本地语音依赖与 assets，不收集用户数据目录、Ollama、模型或虚拟环境。输出 `dist/QIAOMI-AI/QIAOMI-AI.exe` 及完整 portable ZIP；必须分发整个文件夹/ZIP，不能只复制单个 EXE。当前 Linux 未完成 Windows 构建，脚本通过静态检查不等于 EXE 已成功产出。
+需要 Windows x64 + Python3.12，执行 `build_windows.bat`。PyInstaller `qiaomi.spec` 保留 `console=False`，收集 qiaomi/PySide6/本地语音依赖与 assets，不收集用户数据目录、Ollama、模型或虚拟环境。输出 `dist/QIAOMI-AI/QIAOMI-AI.exe` 及完整 portable ZIP；必须分发整个文件夹/ZIP，不能只复制单个 EXE。已在 WindowsServer2025 CI 实际产出并运行 EXE 启动自检；用户 Windows11 桌面、声卡、DPI与游戏负载仍未实测，不能把CI当作实机验收。
 
 ## 必须由 Windows 11 用户逐项实测（当前均待验证）
 

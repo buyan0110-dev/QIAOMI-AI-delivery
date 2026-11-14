@@ -30,6 +30,7 @@
 - `docs/world/PERFORMANCE.zh-CN.md`
 - `docs/world/TEST_REPORT.zh-CN.md`
 - `docs/world/WINDOWS_ACCEPTANCE.zh-CN.md`
+- `docs/world/WINDOWS_CI.zh-CN.md`
 - `docs/world/changes.json`
 - `docs/world/final-full.txt`
 - `docs/world/final-full.xml`
@@ -53,8 +54,12 @@
 - `docs/world/screenshots/settings.png`
 - `docs/world/screenshots/today.png`
 - `docs/world/screenshots/toys.png`
+- `docs/world/source-runtime-agreement.json`
 - `docs/world/test-host.txt`
+- `docs/world/windows-binary-check.json`
 - `docs/world/windows-first-failed.txt`
+- `docs/world/windows-frozen-smoke.json`
+- `docs/world/windows-full.xml`
 - `qiaomi/companion_data.py`
 - `qiaomi/companion_runtime.py`
 - `qiaomi/companion_stories.py`

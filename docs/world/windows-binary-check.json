@@ -1,0 +1,16 @@
+{
+  "portable_zip_sha256": "c15f6aea705cd106b182613cfe7b1b1ff67cede59297c26e0fe353b17f14248f",
+  "bytes": 209800069,
+  "files": 785,
+  "PE_machine": "AMD64",
+  "PE_subsystem": 2,
+  "GUI_mode": true,
+  "preserved_assets": 264,
+  "private_user_data_included": false,
+  "frozen_smoke_passed": true,
+  "Windows_server_full_tests": 685,
+  "Windows_11_manual_verified": false,
+  "ci_run": "https://github.com/buyan0110-dev/QIAOMI-AI-delivery/actions/runs/43609208848",
+  "build_commit": "b9b9498",
+  "build_input_source_sha256": "231ffc332b0c9adf298b163ac5095cf5b285742ac7424e3f3e1d1087a30bab4d"
+}

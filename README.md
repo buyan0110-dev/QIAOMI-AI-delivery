@@ -1,3 +1,19 @@
+# v0.6.0-P0-fix.1 — 代码审查修正版（非完整v0.6.0）
+
+**[下载P0修正版完整源码 ZIP（约26 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0-fix.1/QIAOMI-v0.6.0-P0-fix.1-source.zip)**
+
+修正F03/F05/F09/F10分类门禁、旧身体反馈前置清理、观察/覆盖/视觉分渠道、generation token与优先级/取消/重入/超时，以及新P0快照版本标签；合法旧快照原样复用。264个运行资源不变，无数据库结构迁移。
+
+**在修正后的同一源码树完整运行pytest：624项通过 / 222.75秒。** 不是引用旧578/94结果。Windows11实机/真实音频/DPI/游戏与EXE仍未验证，未提供新EXE。
+
+**F01–F10具体玩法、五个新页面及P1–P4仍未完成。** 本包修复基础接口，不应作为十功能成品验收。
+
+[逐条建议判断/修改文件行号/启动/未验证项](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0-fix.1/docs/p0fix/REPORT.zh-CN.md) · [完整测试报告](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0-fix.1/docs/p0fix/TEST_REPORT.zh-CN.md) · [原始测试输出](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0-fix.1/docs/p0fix/tests.txt) · [SHA256](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.6.0-p0-fix.1/SHA256SUMS.txt)
+
+测试前先旧托盘完全退出，在新目录启动并保留原数据/模型。首次start.bat，日常start.vbs；换目录更新快捷方式/自启动路径。打包沿用Windows build_windows.bat。本包不含私人数据库、配置、录音、模型或虚拟环境；历史说明保留如下。
+
+---
+
 # 最新交付：QIAOMI AI v0.5.0-pink.2 — 比例、完整圆角与浴缸遮挡修复
 
 **[下载修复后的完整源码 ZIP（约31 MiB）](https://github.com/buyan0110-dev/QIAOMI-AI-delivery/blob/delivery/v0.5.0-pink.2/QIAOMI-AI-v0.5.0-pink.2-CANDIDATE-source.zip)**

@@ -1,0 +1,11 @@
+{
+  "file": "QIAOMI-v0.6.0-P0-fix.1-source.zip",
+  "bytes": 26996698,
+  "sha256": "9617c3519017cb31e4f0381fe2b798039d1f9fbc2dfd77b5fa85c11602270d02",
+  "crc": "passed",
+  "runtime_source": "matches tested tree",
+  "assets_unchanged": 264,
+  "private_runtime_data": false,
+  "tests": 624,
+  "windows_verified": false
+}

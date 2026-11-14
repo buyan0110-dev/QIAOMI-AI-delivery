@@ -1,0 +1,25 @@
+{
+  "baseline": "v0.6.0-P0-checkpoint",
+  "added": [
+    "docs/p0fix/REPORT.zh-CN.md",
+    "docs/p0fix/REVIEW.md",
+    "docs/p0fix/scope.json",
+    "docs/p0fix/targeted.txt",
+    "docs/p0fix/tests.txt",
+    "docs/p0fix/tests.xml",
+    "tests/test_companion_review.py"
+  ],
+  "modified": [
+    "README.md",
+    "qiaomi/__init__.py",
+    "qiaomi/app.py",
+    "qiaomi/care.py",
+    "qiaomi/companion_policy.py",
+    "qiaomi/personality.py",
+    "qiaomi/upgrade.py",
+    "tests/test_companion_p0.py",
+    "tests/test_costume_tail_assets.py",
+    "tests/test_pink_geometry.py"
+  ],
+  "deleted": []
+}

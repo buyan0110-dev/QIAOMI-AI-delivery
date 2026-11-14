@@ -1,0 +1,29 @@
+{
+  "baseline": "v0.6.0-P0-checkpoint",
+  "updated_runtime": {
+    "qiaomi/companion_policy.py": {
+      "before_sha256": "70a4cb7ce0e3e270fb98d6f150236675885e55d87c4e8c9e3989b7caceef468b",
+      "after_sha256": "3818181b0d3112bf52ae45d8bc1cea60ef68a5515e14286053fdf45a4cb665ac"
+    },
+    "qiaomi/app.py": {
+      "before_sha256": "abdc0334b5e78e4a5ab9698933e3c2169888e4ff89851609827f2fce21cb3606",
+      "after_sha256": "fe2d18ad67fa81aae0a0e11df32948aa3ffffe32218e4e2062917122890ebf78"
+    },
+    "qiaomi/personality.py": {
+      "before_sha256": "16af332868cef329e37a22469867a9f794d73ded7ce27f1d1f3f1211f7872a5d",
+      "after_sha256": "528cd24832a175cdcaadce17e57c79f21dd4245151e73281bfd368368988d1c2"
+    },
+    "qiaomi/__init__.py": {
+      "before_sha256": "235b130c75c59338f7c967d8698b8bb13940e6b752bb660a1235f6d4ad862268",
+      "after_sha256": "0dbe45676001c533258159134dfb504f926acfffb52ec5a01176189d1ba04f1c"
+    },
+    "qiaomi/upgrade.py": {
+      "before_sha256": "2e8500fada822c59b296bc56c0f8c8516fea283fffa63de3322ec3e94a242dc0",
+      "after_sha256": "86c19a547ee57804e5576996828f1f50a59a66cb1c7f0ab0354fbebbfdea0293"
+    },
+    "qiaomi/care.py": {
+      "before_sha256": "5728a0e62434e727576f2da1b5fcb504801ffa18398311aaadecf31994b0ea86",
+      "after_sha256": "595a2d67889cb272c3e7f174609de405717f208e51c72a384c07b76ce712f8cb"
+    }
+  }
+}
